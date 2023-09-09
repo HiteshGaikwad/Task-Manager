@@ -83,7 +83,16 @@ button:hover {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+  .App {
+    padding: 20px;
+  }
+
   form {
+    width: 80%;
+  }
+
+  button {
     width: 100%;
+    margin-right: 0;
   }
 }
